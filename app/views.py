@@ -21,6 +21,7 @@ def getting_started():
     return render_template('gettingStarted.html',
                            form=form)
 
+
 @app.route('/success')
 def success():
     return render_template('success.html')

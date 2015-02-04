@@ -57,5 +57,6 @@ target/
 venv/
 
 #and stuff
+app/__pycache__/
 __pycache__/
 .idea/
