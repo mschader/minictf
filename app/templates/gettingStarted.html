@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- In case that I forget my password: abc-->
+<form method="post" name="login">
+    {{ form.password(size=80) }}
+    {{ form.submit }}
+</form>
+{% endblock %}
